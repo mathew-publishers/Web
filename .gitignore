@@ -1,0 +1,17 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# QA artefacts
+*.log
+/screenshots/
+/tmp/
+
+# Large source media should not be committed unoptimised
+*.psd
+*.ai
+*.mov
+*.wav
